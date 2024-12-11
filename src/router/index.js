@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Calcularor from '@/pages/Calculator.vue';
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory('/Text-to-number-math-app/'),
   routes: [
     {
       path: '/',
